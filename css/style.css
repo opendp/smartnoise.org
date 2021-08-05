@@ -1,32 +1,12 @@
-/*FONTS*/
-@font-face {
-  font-family: "TT Commons Regular";
-  src: url("../fonts/TypeType-TTCommonsRegular.woff") format("woff"),
-  url("../fonts/TypeType-TTCommonsRegular.otf") format("opentype");
-}
-@font-face {
-  font-family: 'TT Commons Medium';
-  src: url("../fonts/TypeType-TTCommonsMedium.woff") format("woff"),
-       url("../fonts/TypeType-TTCommonsMedium.otf") format("opentype");
-}
-@font-face {
-  font-family: 'TT Commons Medium Italic';
-  src: url("../fonts/TypeType-TTCommonsMediumItalic.woff") format("woff"),
-       url("../fonts/TypeType-TTCommonsMediumItalic.otf") format("opentype");
-}
-@font-face {
-  font-family: "TT Commons Bold";
-  src: url("../fonts/TypeType-TTCommonsBold.woff") format("woff"),
-       url("../fonts/TypeType-TTCommonsBold.otf") format("opentype");
-}
+
 body {
   background: #FFFFFF;
-  padding-top: 53px; 
+  padding-top: 53px;
 }
 
 /****TYPE****/
 h1 {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 52px;
@@ -37,7 +17,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
 }
 h2 {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 43px;
@@ -48,7 +28,7 @@ h2 {
   -webkit-font-smoothing: antialiased;
 }
 h3 {
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -59,7 +39,7 @@ h3 {
   -webkit-font-smoothing: antialiased;
 }
 h4 {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -70,7 +50,7 @@ h4 {
   -webkit-font-smoothing: antialiased;
 }
 h5 {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -81,7 +61,7 @@ h5 {
   -webkit-font-smoothing: antialiased;
 }
 h6 {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -92,7 +72,7 @@ h6 {
   -webkit-font-smoothing: antialiased;
 }
 p {
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -103,7 +83,7 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 li{
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -133,12 +113,12 @@ li{
   opacity: 0.8;
 }
 .bold{
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
 }
 .text-link {
-  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 16px;
@@ -146,7 +126,7 @@ li{
   color:#7D50FF;
 }
 .purple-btn {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   display: inline-block;
   color: #FFFFFF;
@@ -160,7 +140,7 @@ li{
   color: #FFFFFF;
 }
 .white-btn {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   display: inline-block;
   color: #7D50FF;
@@ -186,14 +166,14 @@ li{
   z-index: 10000;
 }
 .navbar li {
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
 }
 .navbar li a {
   color: #212B36;
 }
 .navbar-btn {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   display: inline-block;
   color: white !important;
@@ -233,7 +213,7 @@ li{
   background: linear-gradient(314.47deg, #4D11FC 0%, #7D50FF 100%);
 }
 .masthead-btn {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   display: inline-block;
   color: #FFFFFF;
@@ -359,7 +339,7 @@ margin-bottom: 1em;
   padding-top:80px;
 }
 .section-4 li {
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -443,7 +423,7 @@ background: linear-gradient(20deg, #3F3F3F 0%, #101010 100%);
   background-color: #FFFFFF;
 }
 .footer-btn-transparent{
-  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   display: inline-block;
   color: #FFFFFF;
@@ -461,11 +441,11 @@ background: linear-gradient(20deg, #3F3F3F 0%, #101010 100%);
   padding-bottom: 25px;
 }
 .footer p {
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
 }
 .footer .copyright{
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
 }
 .footer .nav-link:hover{
